@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: roboto;
+}
+.articulos {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu ul {
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.menu li {
+    margin: 20px;
+    display: inline-block;
+}
+
+.menu a {
+    margin: 15px 10px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    background-color: rgb(201, 201, 201);
+}
+
+.tbinicio {
+    margin: 0 auto;
+}
+
+.tbinicio tr, .tbinicio td {
+    padding: 10px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgb(7, 7, 41);
+    color: white;
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containers img {
+    margin-top: 5px;
+    width: 300px;
+}
+
+.containers button {
+    height: 40px;
+    width: 200px;
+}
+
+.containers article{
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.containers article:hover {
+    box-shadow: 1px 1px 10px;
+}
+
+.miniMapa { 
+    height: 600px;
+    width: 85%;
+}
+
+.miniMap {
+    text-align: center;
+}
+
+.miniMap li {
+    text-align: left;
+}
+
+.miniMap table {
+    margin: 0 auto;
+}
+
+.miniMap h2 {
+    text-align: left;
+}
+
+.formulario {
+    text-align: left;
+    justify-content: space-between;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario button {  
+    width: 100px;
+    height: 50px;
+}
+
+.button {
+    text-align: center;
+}
+
+.formulario [name="int"] {
+    width: 800px;
+    height: 28px;
+}
+
+.minCont {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.miArticulo {
+    margin-left: 200px;
+    width: 500px;
+    text-align: center;
+}
+
+.scroll {
+    flex-direction: column;
+    overflow: scroll;
+    height: 650px;
+    border-left: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding-top: 150px;
+}
+
+.scroll article {
+    margin-top: 20px;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+.containers a {
+    text-decoration: none;
+    color: black;
+}
